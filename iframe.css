@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height:100%;
+    width: 100%;
+    background-color: black;
+}
+
+.div{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    overflow-x:auto;
+    white-space: nowrap;
+}
+
+iframe{
+    width: 20%;
+}
+
+img{
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+}
+
+a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color:white;
+    position: absolute;
+    align-items: center;
+}
+
+.imagetext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    opacity: 0;
+}
+
+.imagetext:hover{
+    opacity: 1;
+}
+
+a:hover{
+    color: red;
+    transition: .5s;
+}
+
+#song{
+    background-color: black;
+    display:list-item;
+    list-style: armenian;
+}
+
