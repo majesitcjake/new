@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html{
@@ -11,7 +10,7 @@ html{
 
 body{
     height:100%;
-    width: 100%;
+    width:100%;
     background-color: black;
 }
 
@@ -22,10 +21,12 @@ body::-webkit-scrollbar {
 .div{
     padding: 0px;
     margin: 0px;
+    position: relative;
+    text-align: center;
     display: flex;
-    flex-direction: row;
     overflow-x:auto;
     white-space: nowrap;
+    overflow-y: hidden;
 }
 
 .div::-webkit-scrollbar {
@@ -51,18 +52,11 @@ img{
     height: 100%;
 }
 
-.credit{
-    text-align: center;
-    vertical-align: middle;
-}
-
 a{
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     overflow-x:hidden;
-    text-align: center;
     color: white;
 }
 
@@ -72,30 +66,28 @@ h1{
     align-items: center;
 }
 
-.imagetext{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    vertical-align: middle;
-    opacity: 0;
-}
-
-.imagetext:hover{
-    opacity: 1;
-}
-
-a:hover{
-    color: red;
-    transition: .5s;
-}
-
 #song{
     background-color: black;
     display:list-item;
     list-style: armenian;
 }
 
-.image{
-    display: inline-flex;
+.credit{
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+
+.credit:hover{
+    color: red;
+    transition: .5s
+}
+
+.creditgroup{
+    opacity: 0;
+}
+
+.creditgroup:hover{
+    opacity: 1;
+    transition: 5s;
 }
