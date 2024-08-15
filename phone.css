@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+head{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color:black ;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image:url(iloveyoussomuch.webp);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+.first{
+    position: absolute;
+    animation-name: first;
+    animation-duration:15s;
+    animation-iteration-count: infinite;
+}
+
+.second{
+    position: absolute;
+    animation-name: second;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+.third{
+    position: absolute;
+    animation-name: third;
+    animation-duration:18s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes first {
+    0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:200px; top:500px;}
+  50%  {color:blue; left:800px; top:300px;}
+  75%  {color:green; left:0px; top:100px;}
+  100% {color:red; left:0px; top:0px;}
+  }
+
+  @keyframes second {
+    0%   {color:purple; right:0px; top:0px;}
+  25%  {color:blue; right:487px; bottom:720px;}
+  50%  {color:yellowgreen; left:168px; top:300px;}
+  75%  {color:hotpink; left:320px; top:98px;}
+  100% {color:purple; right:0px; top:0px;}
+  }
+
+  @keyframes third {
+    0%   {color:gold; right:200px; bottom:0px;}
+  25%  {color:fuchsia; right:900px; bottom:220px;}
+  50%  {color:mediumvioletred; left:668px; bottom:90px;}
+  75%  {color:aquamarine; left:320px; bottom:98px;}
+  100% {color:wheat; right:200px; bottom:0px;}
+  }

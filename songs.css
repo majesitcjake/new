@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+head{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color:black ;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color:black ;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+img{
+    width: 100%;
+}
+
+p1{
+    position: fixed;
+    color: white;
+    opacity: .5;
+}
+
+a{
+    text-decoration: none;
+}
