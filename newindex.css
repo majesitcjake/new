@@ -1,15 +1,15 @@
 html{
     height: 100%;
     width: 100%;
-    margin: 0%;
+    margin: 0px;
     padding: 0%;
 }
 
 head{
     height: 100%;
     width: 100%;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* iframe{
@@ -30,7 +30,6 @@ div{
     flex-direction: row;
     height: 100%;
 }
-
 
 img{
     height: 100%;
