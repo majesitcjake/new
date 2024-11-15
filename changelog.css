@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+div{
+    position: relative;
+    display: grid;
+    width: 100%;
+    padding: 5px
+}
+
+iframe{
+    position: relative;
+    width: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 20%;
+}
+
+p1{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    width: 80%;
+    /* border-style:double;
+    border-color: blue; */
+    padding: 5px;
+    border: 2px; 
+    border-style: double; 
+    border-color: gray;
+}
