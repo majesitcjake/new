@@ -2,6 +2,9 @@ html,body{
     height: 100%;
     width: 100%;
     background: black;
+    background-image: url(newgifthing.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -10,7 +13,7 @@ div{
     position: relative;
     display: grid;
     width: 100%;
-    padding: 5px
+    padding: 5px;
 }
 
 iframe{
