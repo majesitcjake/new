@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(deerdie.png);
+}
+
+.month{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size:xx-large;
+}
+
+.days{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.day{
+    font-size: larger;
+    height:5%;
+    width: 5%;
+    margin: 50px;
+    text-align: center;
+}
+
+.last{
+    position: fixed;
+    left: 0px;
+    Top: 0px;
+}
+
+#nothing{
+    color: white;
+}
+
