@@ -6,7 +6,6 @@ html{
     padding: 0px;
     margin: 0px;
     font-family:'Times New Roman', Times, serif;
-    background-image: url(deerdie.png);
 }
 
 .month{
@@ -33,6 +32,12 @@ html{
 .last{
     position: fixed;
     left: 0px;
+    Top: 0px;
+}
+
+.next{
+    position: absolute;
+    right: 0px;
     Top: 0px;
 }
 
